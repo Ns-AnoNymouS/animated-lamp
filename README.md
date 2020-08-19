@@ -70,7 +70,7 @@ Now go to your bot and do a `/start`.
 
 > Any user specified in `AUTH_USERS` can use these commands.
 
-* `/status` - Returns number of total users.
+* `/status` - Returns number of total users
 * `/ban_user` - Command to ban any user. Usage: `/ban_user user_id ban_duration ban_reason`. `user_id` - telegram id of the user, `ban_duration` - ban duration in days, `ban_reason` - reason for ban. All 3 parameters are required.
 * `/unban_user` - Command to unban any banned user. Usage: `/unban_user user_id`. `user_id` - telegram id of the user. The parameter is required.
 * `/banned_users` - Command to view all banned users. Usage: `/banned_users`. This takes no parameters.
