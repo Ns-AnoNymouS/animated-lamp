@@ -16,13 +16,13 @@ async def settings_cb(c, m):
     if typ == 'af':
         as_file = await c.db.is_as_file(chat_id)
         await c.db.update_as_file(chat_id, not as_file)
-        alert_text = 'Successfully changed screenshot upload mode!'
+        alert_text = '✅ Successfully changed screenshot upload mode!'
 
     elif typ == 'wm':
         watermark_text = await c.db.get_watermark_text(chat_id)
         if watermark_text:
             await c.db.update_watermark_text(chat_id)
-            alert_text = 'Successfully removed watermark text.'
+            alert_text = '✅ Successfully removed watermark text.'
         else:
             alert_text = 'Use /set_watermark to add new watermark text.'
     
