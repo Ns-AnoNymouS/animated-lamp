@@ -31,6 +31,7 @@ $ pip3 install -U -r requirements.txt
 
 ```
 ##Develop simpilluly by pressing this button 👇
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/naveen9329/animated-lamp/tree/path-1)
 
 ### Environment Variables
